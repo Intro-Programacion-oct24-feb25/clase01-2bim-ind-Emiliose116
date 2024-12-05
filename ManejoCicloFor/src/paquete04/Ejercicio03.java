@@ -11,16 +11,18 @@ package paquete04;
 public class Ejercicio03 {
 
     public static void main(String[] args) {
+        
+        int num;
 
-        for (int i = 1; i <= 5; i++) {
-            for (int contador = 1; contador <= i; contador++) {
+        for (num = 1; num <= 5; num++) {
+            for (int contador = 1; contador <= num; contador++) {
 
                 System.out.printf("%s", "*");
             }
             System.out.println();
         }
-        for (int i = 5; i >= 1; i--) {
-            for (int contador = 1; contador <= i; contador++) {
+        for (num = 5; num >= 1; num--) {
+            for (int contador = 1; contador <= num; contador++) {
 
                 System.out.printf("%s", "*");
             }
