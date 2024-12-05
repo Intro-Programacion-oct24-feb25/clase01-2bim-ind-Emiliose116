@@ -17,16 +17,16 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         String cadenaFinal = "";
         for (int i = 1; i <= 10; i++) {
-            
-            cadenaFinal = String.format("%s%d", 
-                    cadenaFinal,i);
+
+            cadenaFinal = String.format("%s%d\n",
+                    cadenaFinal, i);
         }
-        
+
         for (int i = 1; i < 11; i++) {
-            cadenaFinal = String.format("%s%d", 
-                    cadenaFinal,i);
+            cadenaFinal = String.format("%s%d\n",
+                    cadenaFinal, i);
         }
-        
+
         System.out.printf("%s", cadenaFinal);
 
     }
